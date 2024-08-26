@@ -1,4 +1,4 @@
-package other
+package other.lrucache
 
 class LRUCache(val capacity: Int) {
     private val map = mutableMapOf<Int, Node>()

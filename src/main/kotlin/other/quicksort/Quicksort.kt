@@ -1,4 +1,4 @@
-package other
+package other.quicksort
 
 fun IntArray.quicksort(first: Int = 0, last: Int = size - 1) {
     if (first >= last) {
